@@ -3,23 +3,26 @@ ul,li{list-style: none;}
 a{text-decoration: none; color: #333;}
 img{border: 0;}
 
-/* header */
-#mobile_gift_wrap section{
+header, section, footer{
     width: 100%;
+    float: left;
     position: relative;
 }
-
+/* header */
+#mobile_gift_wrap{
+    width: 100%;
+    position: relative;
+    background-color: #ff9;
+}
 header{
     width: 100%;
     height: 94px;
     border-bottom: 1px solid #c0c0c0;
 }
-
 #mobile_gift_in_header{
     width: 768px;
     margin: 0 auto;
 }
-
 .in_header_top{
     width: 100%;
     height: 44px;
@@ -29,7 +32,6 @@ header{
     padding: 7px 10px; 
     box-sizing: border-box;
 }
-
 .mobile_top_btn{
     width: 44px;
     height: 44px;
@@ -37,28 +39,22 @@ header{
     align-items: center;
     justify-content: center;
 }
-
 .mobile_gift_back_btn{
     margin-right: 645px;
 }
-
 .mobile_gift_share_btn{
     margin-right: 15px;
 }
-
 .mobile_top_btn img{
     width: 1.5rem;
     height: 1.5rem;
 }
-
 .in_header_bottom{
     width: 100%;
     height: 51px;
-    /* background-color: lightblue; */
     padding: 0 20px;
     box-sizing: border-box;
 }
-
 .in_header_bottom h2{
     line-height: 3.5rem;
     font-size: 1.55rem;
@@ -68,110 +64,125 @@ header{
 /* mobile_gift_category */
 section{ 
     background-color: #f2f2f2;
-    float: left;
 }
 #mobile_gift_category{
     width: 768px;
     margin: 0 auto;
 }
-
 #mobile_gift_category ul{
     background-color: #fff;
     width: 100%;
-    
     height: 325px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    
 }
-
 #mobile_gift_category ul li{
     background-color: #fff;
     height: 38.4px;
 }
-
 #mobile_gift_category ul li:first-child{
     height: 47.4px;
 }
-
 #mobile_gift_category ul li img{
     width: 100%;
-}
-
-.product30{
-    width: 768px;
-    height: auto;
-    background-color: #f8f8f8;
-    margin: 0 auto;
-    font-size: 0.8rem;
-    padding: 12px 17px;
-    box-sizing: border-box;
-    border-top: 1px solid #e6e6e6;
-    letter-spacing: -0.05em;
-    /* box-sizing: inherit; */
 }
 /* mobile_gift_category section end */
 
 /* mobile_product_all */
-
+.mobile_product_all{
+    width: 100%;
+}
+.product30{
+    width:  768px;
+    height: 40px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e6e6e6;
+    padding: 12px 17px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.product30 > p{
+    font-size: 13px;
+    letter-spacing: -0.05em;
+    line-height: 16px;
+    font-weight: 300;
+}
 .mobile_gift_product{
     width: 768px;
     height: auto;
-    background-color: lightcoral;
     margin: 0 auto;
 }
-
 .product_type_all{
-    width: 100%;
+    width: 768px;
     height: 208px;
-    float: left;
+    background-color: lightcyan;
+    display: flex;
 }
-
 .product_type{
-    width: 50%;
+    width: 384px;
     height: 208px;
     float: left;
     background-color: #fff;
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
     border-top: 0;
-    padding: 5px;
+    padding: 15px;
+    /* background-color: lightpink; */
+    display: flex;
+    flex-direction: row;
 }
-
-.product_type > a{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-
-
 .type_left{
     border-right: 0;
     border-left: 0;
 }
-
-.type_right{
-    border-right: 0;
-    background-color: #c0c0c0;
-}
-
 .mobile_gift_img{
-    /* background-color: rgba(0,0,0,0.2); */
-    width: 170px;
-    height: 200px;
-    float: left;
+    width: 140px;
+    height: 168px;
+    overflow:hidden;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-color: rgb(207, 207, 207);
+}
+.mobile_gift_img img{
+   width: 100%;
+   height: 100%;
+   /* margin: 0 auto; */
+   object-fit: cover;
 }
 
-.mobile_gift_img img{
-    width: 100%;
-    border-radius: 10px;
-    float: left;
-}
+/* product text */
 .mobile_gift_text{
-    width: 200px;
-    height: 200px;
-    background-color: lightcoral;
-    float: left;
+   width: 195px;
+   height: 178px;
+   position: relative;
 }
+.mobile_gift_text_top{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+}
+.btn_left, .btn_right{
+    padding: 0 3px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    font-size: 11px;
+    border-radius: 3px;
+    float: left;
+} 
+.btn_left{
+    margin-right: 2px;
+}
+.mobile_gift_text_bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.mobile_gift_text_bottom strong{
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+/* footer */
