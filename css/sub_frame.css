@@ -11,38 +11,17 @@ section{
   border-bottom: solid 1px var(--line_gray);
 }
 .site_header{
-  width: 100%;
   height: 45px;
-  background-color: var(--white);
+  
+}
+.site_header,
+.site_header_select{
+  width: 100%;
+  background-color: var(--white); 
   display: flex;
   justify-content: center;
 }
-.site_header_in{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 770px;
-  padding: 10px;
-}
-.site_header_in i{
-  padding: 0 7px;
-}
-.site_header_in span{
-  font-size: 20px;
-}
-.local_content{
-  display: flex;
-  justify-content: center;
-  height: 95vh;
-}
-.local_menu{
-  width: 100%;
-  max-width: 770px;
-  background-color: var(--white);
-  padding: 5px 20px;
-
-}
+/* 공통메뉴부분 */
 .local_choice{
   width: 100%;
   height: 60px;
@@ -98,3 +77,158 @@ section{
   font-size: 0.8rem;
   border-bottom: 1px solid var(--line_gray);
 }
+
+/* motels.hotels공통부분 */
+/* 숙박업소들 */
+.site_header_select{
+  align-items: center;
+  flex-direction: column;
+}
+.site_header_in{
+  justify-content: space-between;
+  align-items: center;
+}
+.site_header_in,
+.site_header_in_sub{
+  display: flex;
+  width: 100%;
+  max-width: 770px;
+  padding: 10px;
+}
+/* 숙박업소들에 두꺼운 헤더 */
+.site_header_in_sub{
+  flex-direction: column;
+}
+.site_header_in i{
+  padding: 0 7px;
+}
+.site_header_in span{
+  font-size: 20px;
+}
+
+/* 숙박업소들 지역선택 */
+.sleep_where{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.sleep_where h2{
+  font-size: 23px;
+}
+.where_btn{
+  width:30px;
+  height: 30px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  border-radius: 50%;
+  background-color: var(--background_gray);
+}
+/* 숙박업소들 날짜,인원선택*/
+.sleep_when{
+  display: flex;
+  margin-bottom: 15px;
+}
+.sleep_when button{
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--line_gray);
+  background-color: var(--white);
+}
+.sleep_when button  text{
+  padding-left: 3px;
+  font-size: 14px;
+}
+.sleep_when button:hover{
+  background-color: var(--background_gray);
+}
+/* 숙박업소들 태그선택 */
+.special_option{
+  display: flex;
+  padding-left: 10px;
+}
+.special_option li{
+  margin-right: 15px;
+}
+.special_option li.active a{
+  color: var(--black);
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000;
+}
+.special_option li a{
+  font-size: 13px;
+  color: var(--line_gray);
+}
+.sleep_check button{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: var(--background_gray);
+}
+
+.sleep_check button span{
+  display: flex;
+  font-size: 13px;
+}
+.sleep_place button{
+  border: none;
+  background-color: inherit;
+}
+/* 숙박지역 콘텐츠 */
+.local_content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+.main-conts{
+  width: 100%;
+  max-width: 770px;
+  background-color: var(--white);
+}
+.main-conts-recommand,
+.main-conts-local-choice{
+  width: 100%;
+  max-width: 770px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.main-conts-recommand{
+  background-color: var(--background_blue);
+}
+.main-conts-local-choice{
+  background-color: var(--white);
+}
+.local_menu,
+.yanolza-recommand,
+.yanolza-choice,
+.yanolza-local-choice{
+  width: 100%;
+  max-width: 770px;
+  padding: 5px 20px;
+}
+.yanolza-recommand span,
+.yanolza-choice span{
+  font-size: 13px;
+  padding: 5px 0;
+}
+.yanolza-recommand{
+  display: flex;
+  justify-content: end;
+  background-color: var(--white_3);
+}
+.yanolza-choice,
+.yanolza-local-choice{
+  display: flex;
+  background-color: var(--white);
+}
+.yanolza-local-choice{
+  padding-top: 20px;
+  margin-bottom: -10px;
+  color: var(--black_4);
+  font-weight: 500;
+}
+
