@@ -57,8 +57,9 @@ button:hover{
 :root {
 
   --background_gray: #f2f2f2;
-  --line_gray: #cfcfcf;
+  --line_gray: #e2e2e2;
   --background_blue:#012966;
+  --blue:rgb(68, 110, 247);
   --black_0: #888;
   --black_1: #666666;
   --black_2: #333333;
