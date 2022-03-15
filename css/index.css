@@ -1,0 +1,715 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+footer {
+  background: #f2f2f2;
+}
+/* header nav */
+.header {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0 5px 0;
+}
+.logo {
+  margin-left: 314px;
+}
+.search-icon {
+  margin: 0px 20px 0px 265px;
+}
+.location {
+  position: relative;
+  max-width: 76.8rem;
+  margin: 0 auto;
+  text-align: left;
+  padding: 2rem 0 1.3rem 1.7rem;
+  display: flex;
+}
+.adress {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.location-icon2 {
+  padding: 0.2rem 0.4rem 0;
+}
+/* header nav 끝 */
+
+.main_box {
+  width: 100%;
+  height: 1200px;
+  background-color: #f2f2f2;
+}
+
+/* 숙박 종류 아이콘 */
+.iconlist-section {
+  margin: 0 auto;
+  width: 100%;
+  padding: 1.2rem 0 1.6rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-bottom: 0.1rem solid #e6e6e6;
+  background-color: white;
+}
+.iconlist1 {
+  position: relative;
+  display: flex;
+  padding: 1.3rem 7.3rem 0 6.7rem;
+  max-width: 63rem;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.iconlist2 {
+  position: relative;
+  display: flex;
+  padding: 1.3rem 7.3rem 0 6.7rem;
+  max-width: 63rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+.iconlist3 {
+  display: flex;
+  max-width: 72rem;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.8rem;
+  height: 6.6rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.4rem;
+}
+.motel {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.motel img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.motel p {
+  white-space: nowrap;
+  letter-spacing: -0.03rem;
+}
+.hotel {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.hotel img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.premiumhotel {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.premiumhotel img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.pension {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.pension img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.premiumhotel {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.premiumhotel img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.reser {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.reser img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.pull {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.pull img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.resort {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.resort img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.guest {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.guest img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.mobile {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.mobile img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.ski {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.ski img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.ktx {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.ktx img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.rent {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.rent img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.busan {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.busan img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.jeju {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.jeju img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.gangwon {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.gangwon img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.live {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.live img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.top {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.top img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.camp {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.camp img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.children {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.children img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.plus {
+  width: 7.4rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.plus img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.cupon {
+  width: calc((100vw - 4rem) / 4);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2rem;
+  padding: 1.8rem 0 0.4rem;
+  position: relative;
+}
+.cupon img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.cupon2 {
+  width: calc((100vw - 4rem) / 4);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2rem;
+  padding: 1.8rem 0 0.4rem;
+  position: relative;
+}
+.cupon2 img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.spring {
+  width: calc((100vw - 4rem) / 4);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2rem;
+  padding: 1.8rem 0 0.4rem;
+  position: relative;
+}
+.spring img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+.card {
+  width: calc((100vw - 4rem) / 4);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2rem;
+  padding: 1.8rem 0 0.4rem;
+  position: relative;
+}
+.card img {
+  width: 3.8rem;
+  height: 3.8rem;
+  z-index: 20;
+}
+/* 숙박 종류 아이콘 끝*/
+
+/* 베너 */
+.banner-section {
+  max-width: 76.8rem;
+  margin: 1.2rem auto 1.2rem;
+}
+.banner1-box img {
+  border-bottom: 0.1rem solid #e6e6e6;
+  display: block;
+  height: 6rem;
+  width: 100%;
+  background: 50% no-repeat;
+  background-size: cover;
+}
+.banner2-box {
+  margin-top: 1.2rem;
+  width: 100%;
+  height: 9rem;
+  overflow: hidden;
+  position: relative;
+}
+.banner2-box > .banner2-box-visual {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.banner2-box > .banner2-box-visual li {
+  width: 100%;
+}
+.banner2-box .banner2-box1 {
+  left: 0px;
+}
+.banner2-box .banner2-box2 {
+  left: 100%;
+}
+.banner2-box .banner2-box3 {
+  left: 200%;
+}
+.banner2-box > .banner2-box-visual a {
+  background: rgb(250, 213, 2);
+  width: 768px;
+  display: block;
+  text-align: center;
+}
+.banner2-box img {
+  height: 9rem;
+  width: 37.5rem;
+  object-fit: cover;
+}
+.banner2-box-buttonList {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.banner2-box-buttonList li {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  margin: 0 4px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+/* 베너 끝*/
+
+/* 회원 인기 검색어 시작 */
+.search {
+  max-width: 73.5rem;
+  margin-top: 1.2rem;
+  padding: 2rem 1.6rem 3rem 1.7rem;
+  background-color: white;
+  border-bottom: 0.1rem solid #e6e6e6;
+  font-size: 1.4rem;
+  margin: 0 auto 1.2rem;
+}
+.search_box {
+  display: flex;
+}
+.search h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.search > .search_box > a {
+  margin-right: 0.5rem;
+  width: 18rem;
+  height: 9rem;
+  position: relative;
+}
+.search > .search_box > a > img {
+  width: 100%;
+  height: 100%;
+}
+.search > .search_box > a > span {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.hashtag {
+  margin-top: 1.5rem;
+}
+.hashtag a {
+  border: 0.1rem solid #e6e6e6;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+/* 회원 인기 검색어 끝 */
+
+/* ㄱㄷ */
+.todaybest {
+  max-width: 73.5rem;
+  margin-top: 1.2rem;
+  padding: 2rem 1.6rem 3rem 1.7rem;
+  background-color: white;
+  border-bottom: 0.1rem solid #e6e6e6;
+  font-size: 1.4rem;
+  margin: 0 auto 1.2rem;
+}
+.todaybest_nav {
+  display: flex;
+}
+.todaybest_nav h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  color: #1a1a1a;
+}
+.todaybest_nav a {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0152cc;
+  text-decoration: none;
+  padding-left: 1.2rem;
+  margin-left: 52rem;
+}
+.todaybest_box {
+  margin-top: 1.3rem;
+}
+.todaybest_box ul {
+  display: flex;
+}
+.todaybest_box ul li a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  width: 20.8rem !important;
+  height: 20.8rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  background-size: cover;
+}
+.todaybest_box ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 푸터 시작 */
+.footer {
+  position: relative;
+  width: 100%;
+  background: #f2f2f2;
+  padding: 1.5rem 2rem 3rem;
+  margin: 0 auto;
+  max-width: 73.5rem;
+}
+.footer_nav {
+  display: flex;
+}
+.footer_nav > .footer_logo1 {
+  width: 7.4rem;
+  height: 2.1rem;
+  margin-top: 0.7rem;
+}
+.footer > .footer_imformation1 {
+  color: #919191;
+  font-size: 1.1rem;
+  margin: 2rem 0 1.5rem;
+  line-height: 1.64;
+}
+.footer > .footer_button1 {
+  list-style: none;
+  line-height: 3rem;
+  margin: 1rem 0 1.8rem;
+  display: flex;
+}
+.footer > .footer_button1 li {
+  margin-right: 0.5rem;
+  list-style: none;
+}
+.footer > .footer_button1 li a {
+  color: #919191;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.4rem 0.5rem;
+  border: 0.1rem solid hsla(0, 0%, 60%, 0.3);
+}
+.footer > .footer_button2 a {
+  display: inline-block;
+  margin: 0 1.5rem 1.8rem 0;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.footer > .footer_button2 img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.footer > .footer_imformation2 {
+  color: #919191;
+  font-size: 1.1rem;
+  line-height: 1.45;
+}
+.footer > .footer_button3 {
+  line-height: 3rem;
+  margin-bottom: 2.5rem;
+}
+.footer > .footer_button3 a {
+  text-decoration: none;
+  color: #919191;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.4rem 0.5rem;
+  border: 0.1rem solid hsla(0, 0%, 60%, 0.3);
+}
+.footer > .footer_logo2 {
+  border-top: 0.1rem solid #e6e6e6;
+  padding-top: 1.6rem;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.footer > .footer_logo2 li {
+  width: 10.8rem;
+  margin: 0 1rem;
+  text-align: center;
+  color: #919191;
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: -0.05rem;
+  white-space: nowrap;
+  margin-left: -1rem;
+}
+.footer > .footer_logo2 img {
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+.up {
+  width: 73.5rem;
+  display: flex;
+  justify-content: right;
+  padding-bottom: 5rem;
+  z-index: 20 !important;
+  margin: 0 auto;
+}
+.up_box {
+  margin-right: 0 !important;
+  margin-bottom: 1.2rem;
+  position: static !important;
+  width: 4.4rem !important;
+  height: 4.4rem !important;
+}
+.up_button {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  border-radius: 2.2rem;
+  box-shadow: 0 0.2rem 0.3rem 0 rgb(0 0 0 / 15%);
+  border: 0.05rem solid rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  cursor: pointer;
+}
+.up_text {
+  font-size: 1.2rem;
+  color: #616161;
+}
+/* 푸터 끝 */
+
+/* 하단 바 */
+.aside {
+  background: #fff;
+  border-top: 0.1rem solid #e6e6e6;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+}
+.bottom_nav {
+  width: 100%;
+  max-width: 76.8rem;
+  height: 5rem;
+  display: flex;
+  margin: 0 auto;
+}
+.bottom_nav a {
+  color: inherit;
+  text-decoration: none;
+  width: 20%;
+  min-width: 20%;
+  height: 100%;
+  display: block;
+  padding: 0.3rem 0 0.2rem;
+  position: relative;
+  text-align: center;
+}
+.bottom_nav img {
+  width: 4rem;
+  height: 3rem;
+  background: 50% no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  position: relative;
+}
+.bottom_nav span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 0.2rem;
+  color: #ababab;
+}
+
+/* 하단 바 끝 */

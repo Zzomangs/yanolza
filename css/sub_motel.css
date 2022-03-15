@@ -1,0 +1,78 @@
+#recommand{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#recommand a{
+  font-size: 0.8rem;
+  color: rgb(0, 0, 201);
+}
+#motel-carusel{
+  display: flex;
+  margin: 20px 0;
+  overflow: hidden;
+}
+/* 모텔 캐러샐 */
+.motel-carusel-box{
+  width: 140px;
+  margin-right: 20px;
+}
+.motel-carusel-box:last-child{
+  margin-right: 0;
+}
+.motel-carusel-box-img{
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* 간략한 내용 */
+.motel-carusel-box-img img{
+  height: 140px;
+}
+.box-cont h1{
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 300;
+}
+.box-cont span{
+  font-size: 10px;
+  color: var(--black_1);
+}
+.box-cont i{
+  font-size: 12px;
+  color: gold;
+}
+.box-cont b{
+  font-size: 13px;
+  color: var(--black_2);
+}
+.box-price{
+  text-align: right;
+}
+.box-price span{
+  font-size: 9px;
+}
+.box-price h2{
+  font-size: 13px;
+  font-weight: 400;
+}
+.box-price h2 b{
+  font-size: 15px;
+}
+/* 모텔 이벤트 캐러셀 */
+#cut-line{ 
+  width: 100%;
+  height: 15px;
+  background-color: var(--background_gray);
+}
+#motel-event-crusel{
+  display: flex;
+  height: 44.3vh;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.motel-event-img{
+  margin-right: 10px;
+}
