@@ -72,7 +72,7 @@ button:hover{
   --white_3: #ffffffa6;
   --white_4: #ffffff33;
 
-  --hotpink:hotpink;
+  --hotpink:rgb(255, 5, 130);
   --font-family-sans-serif: "Noto Sans KR", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";

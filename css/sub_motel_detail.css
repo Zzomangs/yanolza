@@ -217,9 +217,195 @@
   background: var(--line_gray)
 }
 /* 방정보 */
+.room-box{
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--line_gray);
+}
+.room-box-cont{
+  width: 100%;
+}
+.room-img{
+  display: flex;
+  min-width: 275px;
+  height: 210px;
+  margin-right: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* room's content' */
+.room-info h2{
+  font-size: 13px;
+  font-weight: 500;
+}
+.room-info p{
+  font-size: 14px;
+  color: var(--black_4);
+  margin-bottom: 15px;
+}
+.room-rent,
+.room-sleep{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.option {
+  font-size: 14px;
+}
+.option b{
+  font-weight: 400;
+}
+.option span{
+  font-size: 12px;
+  color: var(--black_4);
+}
+.room-box-price,
+.room-First-come{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.room-box-price p{
+  font-size: 12px;
+}
+.bold{
+  font-size: 14px;
+}
+.bold b{
+  font-size: 17px;
+}
+.left-room{
+  display: flex;
+  justify-content: end;
+  font-size: 13px;
+  font-weight: 500;
+  color: orange;
+}
+.real-price{
+  font-size: 10px;
+  color: var(--black_4);
+  text-decoration: line-through;
+}
+
+.room-First-come p{
+  font-size: 12px;
+  line-height: 1.5rem;
+  color: var(--hotpink);
+}
+.cutoff{
+  color: var(--hotpink);
+  font-size: 13px;
+}
+.cutoff b{
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.first-in{
+  font-size: 11px;
+  /* display: block;
+  max-width: 900px; */
+  border-radius: 2px;
+  border: 1px solid var(--hotpink);
+}
+.first-in span{
+  padding:0 3px;
+}
+.first-in-first{
+  color: var(--white);
+  background-color: var(--hotpink);
+}
+.first-in-percent{
+  color: var(--hotpink);
+}
+
+/* 예약마감 */
+.sold-room{
+  font-size: 12px;
+  color: var(--black_4);
+}
+.already-sold{
+  color: var(--black_4);
+  font-weight: 700;
+  font-size: 13px;
+}
+
 /* 숙소 소개 */
+#introduce,
+#combine,
+#howtouse {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line_gray);
+}
+#introduce h1,
+#combine h1,
+#howtouse h1{
+  padding: 20px 0;
+}
+#introduce h2,
+#combine h2,
+#howtouse h2{
+  font-size: 17px;
+  font-weight: 500;
+}
+#introduce p{
+  color: var(--black_1);
+  font-size: 15px;
+  line-height: 1.2rem;
+}
 /* 편의시설 */
-/* 이용안내 */
+#motel-carusel{
+  display: flex;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.combine-carusel-box{
+  display: flex;
+  width: 5.6rem;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.combine-carusel-box span{
+  font-size: 14px;
+  text-align: center;
+  color: var(--black_1);
+}
+.combine-carusel-box:last-child{
+  margin-right: 0;
+}
+.combine-carusel-box img{
+  width: 56px;
+  height: 40px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.dotted{
+  margin-bottom: 15px;
+}
+#combine li,
+#howtouse li{
+  color: var(--black_1);
+  line-height: 2rem;
+  font-size: 15px;
+}
+/* 판매자정보 */
+#seller-info{
+  width: 100%;
+  padding: 20px 0;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+#cut-line{ 
+  width: 100%;
+  height: 15px;
+  background-color: var(--background_gray);
+}
 /* 후기 */
 /* footer */
 
