@@ -1,11 +1,15 @@
+body{
+    background-color: #f2f2f2;
+}
 #premium_wrap{
     width: 100%;
+    height: auto;
     position: relative;
 }
 header{
     width: 100%;
     height: 94px;
-    border-bottom: 1px solid #c0c0c0;
+    /* border-bottom: 1px solid #c0c0c0; */
     position: fixed;
     z-index: 99;    
     background-color: #fff;
@@ -48,7 +52,6 @@ header{
 /* section */
 section{
     width: 100%;
-    height: auto;
     position: relative;
     top: 94px;
 }
@@ -60,7 +63,36 @@ section{
     width: 100%;
     float: left;
 }
+#in_section>div>a{
+    display: block;
+}
+#in_section>div>a>img{
+    width: 100%;
+    float: left;
+}
+.margin-bottom{
+    width: 100%;
+    height: 55px;
+    float: left;
+    background-color: #fff;
+}
 
+/* top_btn */
+#top_btn{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 999;
+    text-align: center;
+    cursor: pointer;
+}
+#top_btn>p{
+    font-size: 0.8rem;
+}
 
 /* footer */
 footer{
