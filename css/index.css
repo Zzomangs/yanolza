@@ -410,6 +410,7 @@ footer {
 }
 .banner2-box > .banner2-box-visual li {
   width: 100%;
+  position: absolute;
 }
 .banner2-box .banner2-box1 {
   left: 0px;
@@ -420,8 +421,20 @@ footer {
 .banner2-box .banner2-box3 {
   left: 200%;
 }
-.banner2-box > .banner2-box-visual a {
+.banner2-box > .banner2-box-visual > .banner2-box1 a {
   background: rgb(250, 213, 2);
+  width: 768px;
+  display: block;
+  text-align: center;
+}
+.banner2-box > .banner2-box-visual > .banner2-box2 a {
+  background: rgb(248, 202, 3);
+  width: 768px;
+  display: block;
+  text-align: center;
+}
+.banner2-box > .banner2-box-visual > .banner2-box3 a {
+  background: rgb(28, 34, 56);
   width: 768px;
   display: block;
   text-align: center;
@@ -533,6 +546,31 @@ footer {
 }
 .todaybest_box ul {
   display: flex;
+  width: 100%;
+  position: relative;
+  height: 20.8rem;
+  overflow: hidden;
+}
+.todaybest_box ul li {
+  position: absolute;
+}
+.visual_0 {
+  left: 0;
+}
+.visual_1 {
+  left: 29.7%;
+}
+.visual_2 {
+  left: 59.4%;
+}
+.visual_3 {
+  left: 89.1%;
+}
+.visual_4 {
+  left: 118.8%;
+}
+.visual_5 {
+  left: 148.5%;
 }
 .todaybest_box ul li a {
   color: inherit;
@@ -540,13 +578,14 @@ footer {
   display: block;
   width: 20.8rem !important;
   height: 20.8rem;
-  border-radius: 0.4rem;
-  overflow: hidden;
   background-size: cover;
+  margin-right: 8px;
 }
 .todaybest_box ul li img {
   width: 100%;
   height: 100%;
+  border-radius: 0.8rem;
+  object-fit: cover;
 }
 
 /* 푸터 시작 */
