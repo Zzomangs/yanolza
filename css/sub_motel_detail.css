@@ -1,3 +1,12 @@
+/* 헤더부분 추가,foot-choice */
+.site_header,
+.foot-choice{
+  position: fixed;
+  z-index: 5;
+}
+.site_header{
+  opacity: 0;
+}
 /* 캐러셀부분 */
 .gallery-view {/*보이는 부분*/
   width: 100%;
@@ -42,27 +51,27 @@
 
 @keyframes no1 {
   0%   {left: -770px;}/*이미지 초기너비에 맞추어서.*/
-  50%  {left: -1000px;}
+  50%  {left: -1150px;}
   100% {left: -1540px;}/*이미지 초기너비*2*/
 }
 @keyframes no2 {
   0%   {left: -1540px;}
-  50%  {left: -2000px;}
+  50%  {left: -1925px;}
   100% {left: -2310px;}/*이미지 초기너비*3*/
 }
 @keyframes no3 {
   0%   {left: -2310px;}/*이미지 초기너비*3*/
-  50%  {left: -3000px;}
+  50%  {left: -2695px;}
   100% {left: -3080px;}/*이미지 초기너비*4*/
 }
 @keyframes no1lt {
   0%   {left: -1540px;}
-  50%  {left: -1000px;}
+  50%  {left: -1150px;}
   100% {left: -770px;}
 }
 @keyframes no2lt {
   0%   {left: -2310px;}/*이미지 초기너비*3*/
-  50%  {left: -2000px;}
+  50%  {left: -1925px;}
   100% {left: -1540px;}/*이미지 초기너비*2*/
 }
 @keyframes no3lt {
@@ -196,6 +205,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  cursor: pointer;
 }
 .check h2{
   display: flex;
@@ -407,8 +417,175 @@
   background-color: var(--background_gray);
 }
 /* 후기 */
+.review-head{
+  border-bottom: solid 1px var(--line_gray);
+}
+.review-name,
+.review-point{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+#big-point{
+  font-size: 15px;
+  color: var(--black_4);
+}
+#big-point i{
+  font-size: 30px;
+  color: gold;
+}
+#big-point b{
+  font-size: 35px;
+  font-weight: 800;
+  color: black;
+}
+#big-point p{
+  font-size: 13px;
+  color: var(--black_4);
+}
+#semi-point p{
+  color: var(--black_4); 
+  font-size: 10px;
+  text-align: end;
+}
+.semi-score{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 12px;
+  margin: 2px;
+}
+.semi-score progress{
+  padding: 0 5px;
+}
+
+/* 프로그레스바 */
+.progressTag,
+.progressTag2,
+.progressTag3,
+.progressTag4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 75px;
+  height: 5px;
+  border-radius: 7px;
+  color: gold;
+}
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 8px;
+}
+progress::-webkit-progress-value {
+  background-color: gold;
+  border-radius: 8px;
+}
+progress::-moz-progress-bar {
+  background-color: #eee;
+  border-radius: 8px;
+}
+/* riveiw-box */
+.review-box{
+  padding: 15px 0;
+  border-bottom: 1px solid var(--line_gray);
+}
+.re-box-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-left{
+  display: flex;
+  margin-bottom: 20px;
+}
+.review-left h1{
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  color: gold;
+  margin-right: 20px;
+}
+.face-right{
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+.BEST{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 17px;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--hotpink);
+}
+.BEST span{
+  font-size: 3px;
+  line-height: 8px;
+}
+.stars{
+  margin: 3px 0;
+  font-size: 12px;
+  color: gold;
+}
+.review-info{
+  color: var(--black_4);
+}
+.review-right{
+  padding-bottom: 20px;
+  color: var(--black_4);
+  font-size: 13px;
+}
+
+.re-conts{
+  line-height: 1.5rem;
+  font-size: 14px;
+  color: var(--black_1);
+}
+
 /* footer */
+footer{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+footer p{
+  padding: 10px 0;
+  font-size: 12px;
+  color: var(--black_4);
+}
 
-
+.foot-choice{
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: var(--white);
+}
+.choice-in{
+  display: flex;
+  width: 100%;
+  max-width: 770px;
+  padding: 10px;
+}
+.choice-in button{
+  border-radius: 5px;
+  border: 1px solid var(--line_gray);
+  width: 42px;
+  height: 42px;
+  background-color: var(--white);
+}
+.choice-in div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  border-radius: 5px;
+  width: 100%;
+  color: var(--white);
+  background-color: var(--hotpink);
+}
 
 
