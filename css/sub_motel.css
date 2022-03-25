@@ -8,10 +8,12 @@
   font-size: 0.8rem;
   color: rgb(0, 0, 201);
 }
+#overflow{
+  overflow: hidden;
+}
 #motel-carusel{
   display: flex;
   margin: 20px 0;
-  overflow: hidden;
 }
 /* 모텔 캐러샐 */
 .motel-carusel-box{

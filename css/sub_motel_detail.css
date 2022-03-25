@@ -365,10 +365,13 @@
   line-height: 1.2rem;
 }
 /* 편의시설 */
+#overflow{
+  overflow: hidden;
+
+}
 #motel-carusel{
   display: flex;
   margin: 20px 0;
-  overflow: hidden;
 }
 .combine-carusel-box{
   display: flex;
